@@ -1,0 +1,50 @@
+@media (max-width: 950px) {
+    .browse-themes .text-box{
+        width: 100%;
+    }
+}
+
+@media (max-width: 500px){
+    .plugin-text{
+        margin-left: 1rem;
+    }
+
+    .theme-text, .plugins-intro{
+        padding: 1rem;
+    }
+
+    .testimonials .quote{
+        font-size: 17px;
+    }
+
+    .testimonials .heading{
+        font-size: 2rem;
+        margin-bottom: 4rem;
+    }
+
+    .companies .logos img{
+        margin-bottom: 3rem;
+    }
+
+    .services{
+        padding: 3rem 0;
+    }
+
+    .services .heading p{
+        width: 90%;
+    }
+}
+
+@media (max-width: 400px){
+    .plugins .plugin-box{
+        flex-direction: column;
+    }
+
+    .plugin-text{
+        margin-top: 2rem;
+    }
+
+    .action .trail, .action .gold{
+        padding: 3rem 1rem;
+    }
+}

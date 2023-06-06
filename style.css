@@ -1,0 +1,469 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans MT';
+}
+
+:root{
+    --blue-light: #2165c4;
+    --blue-dark: #0c305f;
+    --aqua-light: #48d2de;
+    --orange-light: #f78f44;
+    --orange-dark: #ff7300;
+}
+
+body{
+    background: rgb(202, 200, 200);
+}
+
+.navbar{
+    background: white;
+}
+
+.navbar-brand{
+    color: var(--blue-dark);
+}
+
+.navbar-brand span{
+    color: var(--blue-light);
+}
+
+.nav-item a{
+    font-size: .8rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.nav-item a:hover{
+    color: var(--blue-light);
+}
+
+.home{
+    padding: 10rem 0;
+    background: var(--blue-light);
+    color: white;
+    width: 100%;
+    display: flex;
+}
+
+.home button{
+    width: 13rem;
+    height: 5rem;
+    padding: 5px;
+    border: 0;
+    outline: 0;
+    background: var(--orange-light);
+    margin-top: 3rem;
+    font-weight: 500;
+    font-size: 1.3rem;
+    color: white;
+    transition: .5s ease;
+    text-align: center;
+}
+
+.home button:hover{
+    transform: scale(1.1);
+}
+
+.themes, .plugins{
+    padding: 4rem 0;
+}
+
+.themes-container{
+    background: white;
+}
+
+.themes-container .box, .plugins .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.theme-text, .plugins-intro{
+    align-items: center;
+    padding: 2rem;
+}
+
+.theme-text h3, .plugins-intro h3{
+    color: var(--blue-dark);
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+}
+
+.theme-text p, .plugins-intro p{
+    font-size: 20px;
+    color: gray;
+}
+
+.cta-btn{
+    border: 0;
+    outline: 0;
+    background: var(--orange-dark);
+    color: white;
+    width: 100%;
+    height: 4rem;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    text-transform: capitalize;
+}
+
+.cta-btn:hover{
+    background: var(--orange-light);
+}
+
+.themes-container .theme-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.themes-container .images{
+    padding: 1rem 0;
+}
+
+.plugins .plugins-left{
+    padding: 3rem;
+}
+
+.plugins .plugin-box{
+    background: rgb(228, 226, 226);
+    margin-top: 2rem;
+    padding: 1rem;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.plugin-box img{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+}
+
+.plugin-text{
+    margin-left: 2rem;
+}
+
+.plugin-text h3{
+    color: var(--blue-dark);
+    font-weight: 500;
+}
+
+.plugin-text p{
+    font-size: 18px;
+}
+
+#browse-themes{
+    background: rgb(241, 237, 237);
+    padding: 5rem 0;
+}
+
+.browse-themes{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem 0;
+}
+
+.browse-themes .text-box{
+    width: 60%;
+}
+
+.text-box h3, .testimonials .heading{
+    margin-bottom: 3rem;
+    color: var(--blue-dark);
+    font-weight: 600;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.text-box p{
+    font-size: 20px;
+    color: gray;
+    margin-bottom: 3rem;
+}
+
+.text-box button{
+    width: 15rem;
+    height: 4rem;
+    text-align: center;
+    border: 0;
+    outline: 0;
+    color: white;
+    background: var(--aqua-light);
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.text-box button:active{
+    background-color: white;
+}
+
+.testimonials{
+    padding: 5rem 0;
+    margin: 3rem 0;
+}
+
+.testimonials .person{
+    display: flex;
+}
+
+.testimonials .heading{
+    font-size: 3rem;
+    margin-bottom: 7rem;
+}
+
+.person img{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    margin-right: 2rem;
+}
+
+.person .name h3{
+    font-size: 1.3rem;
+    color: var(--blue-dark);
+}
+
+.person .name h3 span{
+    font-size: 1rem;
+    color: gray;
+}
+
+.person .name p{
+    font-size: 1.5rem;
+}
+
+.testimonials .quote{
+    font-size: 18px;
+}
+
+.action{
+    background: rgb(241, 237, 237);
+    margin-top: 3rem;
+    padding: 5rem 0;
+}
+
+.action .gold{
+    background: white;
+    padding: 3rem;
+}
+
+.gold h3{
+    margin-bottom: 3rem;
+    color: var(--blue-dark);
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+.gold h1, .trail h1{
+    font-size: 5rem;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+.gold p{
+    color: gray;
+    font-size: 18px;
+}
+
+.gold ul li{
+    font-size: 1.3rem;
+    font-weight: 600;
+    line-height: 4rem;
+}
+
+.action .trail{
+    background: var(--blue-light);
+    color: white;
+    padding: 3rem;
+}
+
+.trail h3{
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+.trail p{
+    font-size: 18px;
+}
+
+.trail, .gold{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.gold-btn, .trail-btn{
+    border: 0;
+    outline: 0;
+    background: var(--orange-dark);
+    color: white;
+    width: 100%;
+    height: 4rem;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    text-transform: capitalize;
+}
+
+.trail-btn{
+    background: var(--aqua-light);
+}
+
+.gold-btn:active{
+    background: white;
+}
+
+.trail-btn:active{
+    background: var(--blue-light);
+}
+
+.services{
+    background: rgb(241, 237, 237);
+    padding-top: 5rem;
+}
+
+.service-container{
+    width: 100%;
+    min-height: 400;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.service-box{
+    padding: 1rem;
+    width: 15rem;
+    height: 20rem;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.service-box h4{
+    margin-bottom: 2rem;
+    font-size: 1.4rem;
+}
+
+.service-box button{
+    border: 0;
+    outline: 0;
+    width: 60%;
+    padding: .6rem;
+    font-size: 1.3rem;
+    color: white;
+    background: var(--orange-dark);
+    border-radius: 5px;
+}
+
+.services .heading{
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.services .heading h3, .companies h3{
+    margin-bottom: 3rem;
+    color: var(--blue-dark);
+    font-weight: 600;
+    font-size: 3rem;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.services .heading p{
+    font-size: 20px;
+    color: gray;
+    width: 60%;
+}
+
+.companies .logos{
+    margin: 5rem 5rem;
+}
+
+.companies .logos img{
+    transition: .5s ease;
+}
+
+.companies .logos img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.footer img{
+    width: 100%;
+}
+
+.footer{
+    background: #29476d;
+    color: white;
+}
+
+.footer .container h3{
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--blue-light);
+}
+
+.links-box li{
+    list-style: none;
+    line-height: 2rem;
+}
+
+.links-box li a{
+    text-decoration: none;
+    color: white;
+    text-align: start;
+}
+
+.links-box li a:hover{
+    color: var(--blue-light);
+}
+
+.footer .box{
+    background: white;
+    padding: 3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 2rem;
+}
+
+.footer .box h3{
+    color: var(--blue-dark);
+}
+
+.footer .box p{
+    color: gray;
+}
+
+.footer .box span{
+    color: var(--blue-light);
+}
+
+.footer .social-btns{
+    display: flex;
+}
+
+.footer .social-btns a{
+    margin: 1rem;
+    width: 2rem;
+    height: 2rem;
+}
